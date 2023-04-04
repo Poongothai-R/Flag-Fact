@@ -36,4 +36,5 @@ UserFlow :https://whimsical.com/flag-fact-userflow-T5CPuuo58pxL1e5LeZj4Qj
 ## Road-map
 
 --> Update the sorting feature depending upon both Search and Drop-down values.
+
 --> Sorting using population factor.
