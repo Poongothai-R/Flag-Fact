@@ -1,0 +1,40 @@
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    color: #fff;
+    z-index: 1500;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 32px;
+}
+
+#continent-select{
+    font-size: 24px;
+    width: 25%;
+}
+
+@media screen and (max-width:968px) {
+    nav{
+        width: 80vw;
+    }
+    nav span,#continent-select {
+        font-size: 20px;
+        width: 50%;
+    }
+    
+}
