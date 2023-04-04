@@ -9,6 +9,7 @@ export default function Navbar({ data }) {
     function getContinentData(event){
         event.preventDefault();
         const selectedOption = event.target.value;
+
         if(selectedOption!==""){
             const filterData = data.filter((recs)=> recs.continents.includes(selectedOption));
             setFlagData(filterData);

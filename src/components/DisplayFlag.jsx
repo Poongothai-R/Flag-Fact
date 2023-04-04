@@ -15,7 +15,7 @@ export default function DisplayFlag({ data }) {
         const searchkey = event.target.value;
         if (searchkey!=='') {
             const filterData =
-                await data.filter((recs) => {
+                await flagData.filter((recs) => {
                 const searchTerm = searchkey.toLowerCase();
                 const orgdata = recs.name.common.toLowerCase();
                 return (searchTerm && orgdata.startsWith(searchTerm));
